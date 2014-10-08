@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'busser/serverspec/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'busser-serverspec'
+  spec.name          = 'busser-serverspec-clc'
   spec.version       = Busser::Serverspec::VERSION
   spec.authors       = ['HIGUCHI Daisuke']
   spec.email         = ['d-higuchi@creationline.com']
