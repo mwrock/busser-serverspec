@@ -24,7 +24,7 @@ require 'busser/runner_plugin'
 #
 class Busser::RunnerPlugin::Serverspec < Busser::RunnerPlugin::Base
   postinstall do
-    install_gem('serverspec')
+    install_gem('serverspec-clc')
     install_gem('bundler')
   end
 
